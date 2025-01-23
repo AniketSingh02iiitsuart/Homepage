@@ -10,3 +10,7 @@ Currently, two official plugins are available:
 
 # Homepage
  1ce672bb7c7340a106f26b43d33885f670b8d50b
+
+
+
+![Alt Text](images/design.png)

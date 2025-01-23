@@ -13,4 +13,4 @@ Currently, two official plugins are available:
 
 
 
-![Alt Text](images/design.png)
+![Alt Text](images/screenshot.png)

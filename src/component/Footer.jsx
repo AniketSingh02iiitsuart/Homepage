@@ -1,17 +1,39 @@
+import '../App.css';
 import React from 'react';
-import './Footer.css';
+ 
+function Footer(){
+     return(
+        <> 
+        <footer className='footer-section'>
+            <div className='footer-container'>
+               <div className='footer-brand'>
+                  <p>LOGO</p>
+               </div>
+               <div className='footer-info'>
+                   <h4>Pages</h4>
+                   <p className='footer-underline'></p>
+                   <ul>
+                     <li><a href='#home'>Home</a></li>
+                     <li> <a href='#Aboutus'>About us</a></li>
+                     <li><a href='#Resources'>Resources</a></li>
+                   </ul>
+                   
+                   <h4>Address</h4>
+                   <p className='footer-underline'></p>
 
-function Footer() {
-  return (
-    <footer className="footer">
-      <p>&copy; 2025 Your Company. All rights reserved.</p>
-      <div className="social-links">
-        <a href="#">Facebook</a>
-        <a href="#">Twitter</a>
-        <a href="#">Instagram</a>
-      </div>
-    </footer>
-  );
+                   <div className='footer-location'> 
+                     <p>Lorem Ipsum has been the industry's standard
+                     142555</p>
+                     <p>Lorem Ipsum has been the industry's standard
+                     142555</p>
+                     <p>Lorem Ipsum has been the industry's standard
+                     142555</p>
+                   </div>
+               </div>
+            </div>
+        </footer>  
+        </>
+     )   
 }
 
 export default Footer;

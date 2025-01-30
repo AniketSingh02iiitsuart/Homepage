@@ -19,10 +19,11 @@ function Homesection() {
           </div>
 
 
-           <div className='homescetion-right'>
-           <p className='underline'><u>This text is underlined</u></p>
+           <div className='homesection-right'>
+              
            </div>
-
+           
+          <p className='un'></p>
            
           </section>
 

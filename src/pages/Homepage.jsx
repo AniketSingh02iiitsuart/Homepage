@@ -21,7 +21,6 @@ function Homepage(){
        <Homesection/>
        <Aboutus/>
        <Services/>
-       <Card/>
        <Responsible/>
        <OurPartner/>
        <News/>

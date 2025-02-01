@@ -1,7 +1,7 @@
 import '../App.css';
 import React from 'react';
 
-function Aboutus(){
+function AboutusHome(){
     return(
         <>
 
@@ -43,4 +43,4 @@ function Aboutus(){
     );
 }
 
-export default Aboutus 
+export default AboutusHome

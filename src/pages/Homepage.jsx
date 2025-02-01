@@ -3,7 +3,7 @@ import React from 'react';
 
 
 import Homesection from '../component/Homesection';
-import Aboutus from '../component/Aboutus';
+import AboutusHome from '../component/AboutusHome';
 import Services from '../component/Services';
 import Card from '../component/Card';
 import Responsible from '../component/Responsible';
@@ -19,7 +19,7 @@ function Homepage(){
 
        
        <Homesection/>
-       <Aboutus/>
+       <AboutusHome/>
        <Services/>
        <Responsible/>
        <OurPartner/>

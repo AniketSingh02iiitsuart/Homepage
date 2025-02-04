@@ -1,6 +1,9 @@
 import '../App.css';
+import lin from  '../Images/lin.png'
+import twi from  '../Images/twi.png'
+import insta from '../Images/insta.png'
 import React from 'react';
- 
+
 function Footer(){
      return(
         <> 
@@ -8,6 +11,11 @@ function Footer(){
             <div className='footer-container'>
                <div className='footer-brand'>
                   <p>LOGO</p>
+                  <div className='footericon'>
+                  <img src={lin}></img>
+                  <img src={twi}></img>
+                  <img src={insta}></img>
+                  </div>
                </div>
                <div className='footer-info'>
                    <h4>Pages</h4>

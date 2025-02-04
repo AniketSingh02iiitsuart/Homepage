@@ -6,12 +6,29 @@
   align-items: center;
   font-size: 25px;
   height: 70px;
-  
   background-color: #87CEEB
   
-
-  
 }
+
+.footericon{
+  margin-top: 30%;
+ }
+.footericon lin{
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+.footericon twi{
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+.footericon insta{
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+
 .home{
   margin-top: 25px;
   

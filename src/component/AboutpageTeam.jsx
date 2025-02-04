@@ -8,12 +8,12 @@ function AboutpageTeam(){
               
               <div >
               <h3 className='team'>Team</h3>
-              <p className='underline'></p>
+             
               </div>
              
              <div>
-                <h2>About Team </h2>
-                <p className='underline'></p>
+                <h2>About Our Team Campany</h2>
+               
 
              </div>
 

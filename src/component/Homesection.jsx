@@ -23,7 +23,7 @@ function Homesection() {
               
            </div>
            
-          <p className='un'></p>
+          <p className="homesection-right-underline">  </p>
            
           </section>
 

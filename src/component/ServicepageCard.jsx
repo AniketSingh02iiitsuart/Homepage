@@ -8,13 +8,12 @@ function ServicepageCard (){
         <>
            <div className="feature-container">
       <div className="feature-image">
+      <h2>Intelligent Responses</h2>
         <img src={cardimg} alt="Feature Icon" />
       </div>
 
-
-      
       <div className="feature-content">
-        <h2>Intelligent Responses</h2>
+        
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever

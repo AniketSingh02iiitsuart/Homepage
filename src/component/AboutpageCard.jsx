@@ -13,7 +13,7 @@ function AboutpageCard(){
                                    <img className='about-news-image' src={grp} alt="Blockchain News 1"></img>
                                    <div className='about-news-content'>
                                    <p>Post</p>
-                                   <p className='underline'></p>
+                                   
                                    <h3>Name</h3>
                                    <p>Blockchain technology is revolutionizing industries by providing decentralized, secure, and transparent data management systems. It has applications in finance, healthcare, supply chain management, and more.</p>
                                    </div>
@@ -23,7 +23,7 @@ function AboutpageCard(){
                                    <img className='about-news-image' src={grp} alt="Blockchain News 1"></img>
                                    <div className='about-news-content'>
                                    <p>Post</p>
-                                   <p className='underline'></p>
+                                  
                                    <h3>Name</h3>
                                    <p>Blockchain technology is revolutionizing industries by providing decentralized, secure, and transparent data management systems. It has applications in finance, healthcare, supply chain management, and more.</p>
                                    </div>
@@ -34,7 +34,7 @@ function AboutpageCard(){
                                    <img className='about-news-image' src={grp} alt="Blockchain News 1"></img>
                                    <div className='about-news-content'>
                                    <p>Post</p>
-                                   <p className='underline'></p>
+                                   
                                    <h3>Name</h3>
                                    <p>Blockchain technology is revolutionizing industries by providing decentralized, secure, and transparent data management systems. It has applications in finance, healthcare, supply chain management, and more.</p>
                                    </div>

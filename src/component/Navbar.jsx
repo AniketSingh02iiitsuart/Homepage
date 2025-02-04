@@ -8,13 +8,13 @@ function Navbar() {
 <header>
   <nav className="navbar">
     <ul className="home">  
-      <li><Link to="/">Home</Link></li>  
+      <li><Link to="/">HOME</Link></li>  
     </ul>
 
     <ul className="nav-links">
-      <li><Link to="/About">About</Link></li>
-      <li><Link to="/Resources">Resources</Link></li>
-      <li><Link to="/Join-us" className='joinus'>Join us</Link></li>
+      <li><Link to="/About">ABOUT</Link></li>
+      <li><Link to="/Resources">RESOURCES</Link></li>
+      <li><Link to="/Join-us" className='join-us-nav'>JOIN US</Link></li>
     </ul>
   </nav>
 </header>

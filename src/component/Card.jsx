@@ -11,7 +11,7 @@ function Card() {
             techniques for OCR to accurately convert handwritten 
             equations into digital format. </p>
             <h3>INTELLIGENT RESPONSE</h3>
-            <p className='underline'></p>
+            
             <ul>
               <li> Lorem Ipsum</li>
               <li> Lorem Ipsum </li>

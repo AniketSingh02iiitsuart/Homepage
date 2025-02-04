@@ -9,8 +9,8 @@ function Services(){
         <>
           <section id="services" className="services-container">
           <div className='about-title'>
-          <h2>services</h2>
-          <p className='underline'><u></u></p>
+          <h2>Services</h2>
+          
           </div>
            
           <div className='service-card'>

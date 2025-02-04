@@ -8,31 +8,34 @@ function News() {
     return(
         <>
         <section className='news-section'>
-            <h3> Articles and News</h3>
+            <h3> ARTICLE AND NEWS</h3>
             <p className='underline-news'></p>
             <div className='main-news'>
                 <div className='news-item'>
                     <img className='news-image' src={grp} alt="Blockchain News 1"></img>
                     <div className='news-content'>
-                    <p>Blockchain Basics</p>
-                    <p className='underline'></p>
-                    <p>Blockchain technology is revolutionizing industries by providing decentralized, secure, and transparent data management systems. It has applications in finance, healthcare, supply chain management, and more.</p>
+                     <h3>ARTICLE</h3>
+                    <p>Intelligent Response</p>
+                  
+                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                     </div>
                 </div>
                 <div className='news-item'>
                     <img className='news-image' src={grp} alt="Blockchain News 2"></img>
                     <div className='news-content'>
-                    <p>Smart Contracts</p>
-                    <p className='underline'></p>
-                    <p>Smart contracts enable self-executing agreements with terms written directly into code. They ensure trust and automation in transactions, without relying on intermediaries.</p>
+                    <h3>ARTICLE</h3>
+                    <p>Intelligent Response</p>
+                   
+                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                     </div>
                 </div>
                 <div className='news-item'>
                     <img className='news-image' src={grp} alt="Blockchain News 3"></img>
                     <div className='news-content'>
-                    <p>Blockchain Security</p>
-                    <p className='underline'></p>
-                    <p>Blockchain provides enhanced security features through encryption, ensuring that data remains immutable and resistant to tampering. This makes it ideal for secure online transactions.</p>
+                    <h3>ARTICLE</h3>
+                    <p className='news-p1'>Intelligent Response</p>
+                   
+                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                     </div>
                 </div>
             </div>

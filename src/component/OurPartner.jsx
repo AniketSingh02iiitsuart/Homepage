@@ -12,36 +12,45 @@ function OurPartner() {
     return (
         <>
             <section>
-                <h3 className='partner-heading'>OUR PARTNER</h3>
+                <p className='partner-heading'>OUR PARTNER</p>
 
                 <p className='divider-line'></p>
 
                 <div className='partner-list'>
+                
                     <div className='partner-item'>
-                    
+                       
                         <img src={log1} alt="Partner Logo"></img>
+                        <span className='brand-name'>BRAND NAME</span>
                        
                     </div>
                     <p className='divider-line'></p>
                 </div>
 
                 <div className='partner-list'>
+                
                     <div className='partner-item'>
                     
                         <img src={log2} alt="Partner Logo"></img>
+                        <span className='brand-name'>BRAND NAME</span>
                         
                     </div>
                     <p className='divider-line'></p>
                 </div>
 
                 <div className='partner-list'>
+                
                     <div className='partner-item'>
                       
                         <img src={log3} alt="Partner Logo"></img>
+                        <span className='brand-name'>BRAND NAME</span>
                         
                     </div>
                     <p className='divider-line'></p>
                 </div>
+
+
+          
             </section>
         </>
     )

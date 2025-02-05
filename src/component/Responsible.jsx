@@ -1,20 +1,28 @@
 import '../App.css';
 import React from 'react';
 import image1 from '../Images/check-circle.png';
+import Image1 from '../Images/disc.png';
  
 function Responsible(){
      return(
         <>
           <section className='tech-section'>
-            
+          
+
            <div className='tech-header'>
-             <p></p>
+           <div className="over-write1">
+        <h2>Our Process</h2>
+      </div>
            </div>
            <div className='tech-content'>
-               
-              <h3> <span>01</span>
-                Ethical AI Implementation
+
+             <div className='tri'>
+             <span className='resp3'>01</span>
+              <h3> 
+               Responsible Tech Use
               </h3>
+             </div>
+          
               <p>We leverage artificial intelligence (AI) techniques to enhance accuracy 
               in digital transformation while ensuring fairness and transparency.</p>
                  
@@ -33,13 +41,24 @@ function Responsible(){
                     <p>Our approach prioritizes ethical AI practices to maintain trust and reliability 
                     in digital transformation.</p>
                 </div>
-                 
-              <h3><span>02</span>
-                Sustainable Tech Solutions
+
+
+               <div className='tri'>
+               <span className='resp1'>02</span> 
+              <h3 >
+              Responsible Tech Use
               </h3>
-              <h3><span>03</span>
-                Inclusive Digital Innovation
+               </div>
+              
+
+              <div className='tri'>
+              <span className='resp2'>03</span>
+              <h3 >
+              Responsible Tech Use
               </h3>
+
+              </div>
+            
               
            </div>
           </section>

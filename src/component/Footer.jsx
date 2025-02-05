@@ -3,6 +3,7 @@ import lin from  '../Images/lin.png'
 import twi from  '../Images/twi.png'
 import insta from '../Images/insta.png'
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Footer(){
      return(
@@ -21,10 +22,11 @@ function Footer(){
                    <h4>Pages</h4>
                    <p className='footer-underline'></p>
                    <ul>
-                     <li><a href='#home'>Home</a></li>
-                     <li> <a href='#Aboutus'>About us</a></li>
-                     <li><a href='#Resources'>Resources</a></li>
+                     <li><Link to="/">Home</Link></li>
+                     <li> <Link to="/About">About us</Link></li>
+                     <li><Link to="/Resources"  >Resources</Link></li>
                    </ul>
+
                    
                    <h4>Address</h4>
                    <p className='footer-underline'></p>

@@ -8,9 +8,10 @@ function Services(){
     return(
         <>
           <section id="services" className="services-container">
-          <div className='about-title'>
-          <h2>Services</h2>
-          
+          <div >
+          <p className="about-title">SERVICE
+        <span className="underLine"></span>
+    </p>
           </div>
            
           <div className='service-card'>

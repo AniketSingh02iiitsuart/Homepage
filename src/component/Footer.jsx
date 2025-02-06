@@ -1,5 +1,5 @@
 import '../App.css';
-import lin from  '../Images/lin.png'
+import lin from  '../Images/Lin.png'
 import twi from  '../Images/twi.png'
 import insta from '../Images/insta.png'
 import React from 'react';

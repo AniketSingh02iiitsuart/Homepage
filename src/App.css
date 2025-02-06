@@ -378,10 +378,15 @@ ul li a {
   display: flex;
   flex-wrap: wrap;
   margin-left: 135px;
+  margin-bottom: 50px;
  
   
 }
-
+@media (max-width: 768px) {
+  .card {
+    width: 100%; /* Stack cards on small screens */
+  }
+}
 
 
 

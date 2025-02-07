@@ -10,6 +10,7 @@ import Responsible from '../component/Responsible';
 import OurPartner from '../component/OurPartner';
 import News from '../component/News';
 import Textbox from '../component/Textbox';
+import Navbar from '../component/Navbar';
 
 
 function Homepage(){
@@ -17,7 +18,7 @@ function Homepage(){
         <>
         
 
-       
+       <Navbar/>
        <Homesection/>
        <AboutusHome/>
        <Services/>

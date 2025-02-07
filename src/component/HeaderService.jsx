@@ -2,10 +2,10 @@ import '../App.css';
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function Navbar() {
+function HeaderService() {
     return (
         <>
-<header className='header1'>
+<header className='header2'>
   <nav className="navbar">
      
      <ul className="home">
@@ -23,9 +23,25 @@ function Navbar() {
       <li><Link to="/Join-us" className='join-us-nav'>JOIN US</Link></li>
     </ul>
   </nav>
+   
+
+
+  <div className="service-container" >
+     
+     <div className="service-content">
+       <h1>Text Box</h1>
+       <p className="italic-text">Text Box</p>
+     </div>
+   </div>
+
+
+     
+
+
+
 </header>
         </>
     );
 }
 
-export default Navbar;
+export default HeaderService;

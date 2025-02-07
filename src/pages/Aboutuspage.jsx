@@ -5,11 +5,13 @@ import Mission from '../component/Mission';
 import CardSectionAboutPage from '../component/CardSectionAboutPage';
 import AboutpageTeam from '../component/AboutpageTeam';
 import AboutpageCard from '../component/AboutpageCard';
+import HeaderAbout from '../component/HeaderAbout';
 
 
 function Aboutuspage(){
     return(
         <>
+            <HeaderAbout/>
            <Aboutuspageintro/>
            <Mission/>
 

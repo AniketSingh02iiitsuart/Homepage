@@ -9,6 +9,7 @@ function News() {
         <>
         <section className='news-section'>
             <p className='til'> ARTICLE AND NEWS</p>
+            <p className='team-underline4'></p>
           
             <div className='main-news'>
                 <div className='news-item'>

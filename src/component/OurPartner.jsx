@@ -13,6 +13,7 @@ function OurPartner() {
         <>
             <section>
                 <p className='partner-heading'>OUR PARTNER</p>
+                <p className='team-underline3'></p>
 
                 <p className='divider-line'></p>
 

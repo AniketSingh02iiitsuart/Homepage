@@ -12,8 +12,8 @@ function AboutusHome(){
 
     
       <div >
-        <p className="about-title1">ABOUT US
-          </p>    
+        <p className="about-title1">ABOUT US </p>    
+          <p className='team-underline1'> </p>
       </div>
 
       

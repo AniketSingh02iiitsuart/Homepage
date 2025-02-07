@@ -9,7 +9,7 @@ function ServicepageCard (){
            <div className="feature-container">
       <div className="feature-image">
       <h2>Intelligent Responses</h2>
-        <img src={cardimg} alt="Feature Icon" />
+        <img src={cardimg} alt="Feature Icon"className="feature-icon"/>
       </div>
 
       <div className="feature-content">

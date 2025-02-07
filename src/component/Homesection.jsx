@@ -22,7 +22,8 @@ function Homesection() {
               
                    </div>
 
-                   <p className="custom-underline"></p>
+
+                   <p className="homesection-right-underline"></p>
 
                    </div>
          

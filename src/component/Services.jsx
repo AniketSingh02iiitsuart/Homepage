@@ -9,9 +9,8 @@ function Services(){
         <>
           <section id="services" className="services-container">
           <div >
-          <p className="about-title">SERVICE
-        <span className="underLine"></span>
-    </p>
+          <p className="about-title">SERVICE </p>
+          <p className='team-underline2'></p>
           </div>
            
           <div className='service-card'>

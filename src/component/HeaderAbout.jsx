@@ -24,15 +24,18 @@ function HeaderAbout() {
     </ul>
   </nav>
 
-
-
-
-
-
-
-
-
 </header>
+
+  
+  
+
+
+
+
+
+
+
+
         </>
     );
 }

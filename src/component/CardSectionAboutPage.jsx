@@ -11,6 +11,7 @@ function CardSectionAboutPage(){
       <img src={image4} alt="Discussion" className="card-image" />
         <div className='card2'>
         <h3 className='card-content'>Lorem Ipsum</h3>
+        <p className='aboutpagesection-underline'></p>
        
        <p className='about-carrd'>
          Lorem Ipsum is simply dummy text of the printing and typesetting industry. 

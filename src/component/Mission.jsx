@@ -13,6 +13,8 @@ function Mission(){
       </div>
       </div>
 
+     
+
 
       <div className="about-mission">
       <p className="mission-right">
@@ -27,14 +29,9 @@ function Mission(){
         </p>
       </div>
      
-
-      
-
-
-     
       </section>
       <div className="bottom-section">
-        <h3>Offering you expert guidance and strategic insights</h3>
+        <h3>Offering you expert guidance and <br></br>strategic insights</h3>
       </div>
 
         </>

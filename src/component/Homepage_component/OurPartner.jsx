@@ -1,12 +1,10 @@
-import './Ourpartner.css';
+import './OurPartner.css';
 import React from 'react';
 
 
 import log1 from "../../Images/log1.png"
 import log2 from "../../Images/log2.png"
 import log3 from "../../Images/log3.png"
-
-
 
 function OurPartner() {
     return (

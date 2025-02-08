@@ -21,7 +21,10 @@ function Navbar() {
         <li><Link to="/Servicepage">RESOURCES</Link></li>
       
       
-      <li><Link to="https://www.cricbuzz.com/" className='join-us-nav'>JOIN US</Link></li>
+        
+        <li><Link to="https://www.cricbuzz.com/" className='join'>JOIN US</Link></li>
+
+
     </ul>
   </nav>
 </header>

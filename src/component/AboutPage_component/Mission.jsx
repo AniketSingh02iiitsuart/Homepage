@@ -1,6 +1,6 @@
 import React from "react";
-import '../App.css';
-import missionImage from '../Images/disc.png';
+import './Mission.css';
+import missionImage from '../../Images/disc.png';
 
 function Mission(){
     return(
@@ -34,7 +34,7 @@ function Mission(){
      
       </section>
       <div className="bottom-section">
-        <h3>Offering you expert guidance and strategic insights</h3>
+        <h3>Offering you expert guidance and<br></br> strategic insights</h3>
       </div>
 
         </>

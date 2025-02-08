@@ -1,11 +1,11 @@
-import '../App.css';
+import './HeaderAbout.css';
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function Navbar() {
+function HeaderAbout() {
     return (
         <>
-<header className='header1'>
+<header className='header3'>
   <nav className="navbar">
      
      <ul className="home">
@@ -23,9 +23,21 @@ function Navbar() {
       <li><Link to="/Join-us" className='join-us-nav'>JOIN US</Link></li>
     </ul>
   </nav>
+
 </header>
+
+  
+  
+
+
+
+
+
+
+
+
         </>
     );
 }
 
-export default Navbar;
+export default HeaderAbout;

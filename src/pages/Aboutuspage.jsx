@@ -1,17 +1,17 @@
 import '../App.css';
 import React from 'react'
-import Aboutuspageintro from '../component/Aboutuspageintro';
-import Mission from '../component/Mission';
-import CardSectionAboutPage from '../component/CardSectionAboutPage';
-import AboutpageTeam from '../component/AboutpageTeam';
-import AboutpageCard from '../component/AboutpageCard';
-import HeaderAbout from '../component/HeaderAbout';
+import Aboutuspageintro from '../component/AboutPage_component/Aboutuspageintro';
+import Mission from '../component/AboutPage_component/Mission';
+import CardSectionAboutPage from '../component/AboutPage_component/CardSectionAboutPage';
+import AboutpageTeam from '../component/AboutPage_component/AboutpageTeam';
+import AboutpageCard from '../component/AboutPage_component/AboutpageCard';
+import HeaderAbout from '../component/AboutPage_component/HeaderAbout';
 
 
 function Aboutuspage(){
     return(
         <>
-            <HeaderAbout/>
+           <HeaderAbout/>
            <Aboutuspageintro/>
            <Mission/>
 
@@ -24,7 +24,7 @@ function Aboutuspage(){
 
            <AboutpageTeam/>
            
-          <AboutpageCard/>
+            <AboutpageCard/>
         </>
     );
 }

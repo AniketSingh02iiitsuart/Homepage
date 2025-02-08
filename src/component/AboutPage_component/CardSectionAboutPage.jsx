@@ -1,6 +1,6 @@
-import '../App.css';
+import './CardSectionAboutPage.css';
 import React from 'react';
-import image4 from '../Images/disc.png';
+import image4 from '../../Images/disc.png';
 
 
 function CardSectionAboutPage(){

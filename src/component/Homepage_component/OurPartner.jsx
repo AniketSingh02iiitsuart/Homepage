@@ -1,10 +1,10 @@
-import '../App.css';
+import './Ourpartner.css';
 import React from 'react';
 
 
-import log1 from "../Images/log1.png"
-import log2 from "../Images/log2.png"
-import log3 from "../Images/log3.png"
+import log1 from "../../Images/log1.png"
+import log2 from "../../Images/log2.png"
+import log3 from "../../Images/log3.png"
 
 
 
@@ -12,8 +12,13 @@ function OurPartner() {
     return (
         <>
             <section>
-                <p className='partner-heading'>OUR PARTNER</p>
-                <p className='team-underline3'></p>
+
+            <div className='partner1'>
+            <p className='partner-heading'>OUR PARTNER</p>
+            <div className='team-underline1'> </div>
+            </div>
+                
+               
 
                 <p className='divider-line'></p>
 

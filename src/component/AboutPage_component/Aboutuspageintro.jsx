@@ -1,7 +1,7 @@
-import '../App.css';
+import './Aboutuspageintro';
 import React from 'react';
-import image from "../Images/grp.jpg";
-import img9 from "../Images/aboutp.png"
+import image from "../../Images/grp.jpg";
+import img9 from "../../Images/aboutp.png"
 
 function Aboutuspageintro()
 {

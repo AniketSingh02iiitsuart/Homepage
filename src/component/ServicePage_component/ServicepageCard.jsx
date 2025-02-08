@@ -1,7 +1,8 @@
 
-import '../App.css';
+import './ServicepageCard.css';
 import React from 'react';
-import cardimg from "../Images/Servicecardimg.png";
+import cardimg from "../../Images/Servicecardimg.png";
+
 
 function ServicepageCard (){
     return(

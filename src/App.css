@@ -101,80 +101,8 @@ ul li a {
 
 
 
-.homesection {
-  background-color: #77B5FE;
-  padding: 40px;
-  display: flex;
-  justify-content: space-between;
-  
-}
-.homesection1{
-  background-color: #77B5FE;
-  
-}
 
 
-.homesection-left {
-  display: flex;
-  flex-direction: column;
-  margin-right: 20px;
-  justify-content: center;
-  justify-content: space-evenly;
-}
-
-
-.textbox1 {
-  font-size: 100px;
-  font-weight: bold;
-  color: #FFFF;
-  font-family: sans-serif;
-  
-  width: 100%;
-  height: 96px;
-  margin-top: 216px;
-  margin-left: 123px;
-  line-height: 95.2px;
-}
-
-
-.textbox2 {
-  font-size: 100px;
-  color: #FFDF34;
-  margin-bottom: 15px;
-  width: 100%;
-  height: 125px;
-  margin-top: 50px;
-  margin-left: 100px;
-  font-style: italic;
-  padding-left:50px ;
-  
-}
-
-
-.joinus {
-  padding: 10px 20px;
-  background-color: #FFFF;
-  color: rgb(33, 197, 219);
-  border: 20px;
-  border-radius: 40px;
-  cursor: pointer;
-  font-size: 28px;
-  margin-top: 50px;
-  height: 55px;
-  width: 150px;
-  margin-left: 140px;
-
-}
-
-.joinus:hover {
-  background-color: #FFFF;
-}
-
-.custom-underline {
-  text-decoration: underline;
-  text-decoration-color: rgb(247, 244, 244); 
-  text-decoration-thickness: 2px;
-  }
 
 
 .paragraph1 {
@@ -193,28 +121,7 @@ ul li a {
 
 }
 
-.homesection-right{
-  width: 500px;
-  height: 460px;
- margin-top: 148px;
-  border: 1px solid black;
-  background-color: #0c0c0c;
-  margin-right: 70px;
-}
 
-.homesection-right-underline{
- 
- bottom: 13rem;
-  display: block;  
-  width: 44rem;  
-  height: 2px;  
-  background-color: #e4e6ea;  
-  position: absolute;
-  right: 110px;
- 
-  
-
-}
 
 
 
@@ -251,13 +158,14 @@ ul li a {
   background-color: #e4e6ea;  
 }
 
-.team-underline2{
-  margin-top: 1px;
-  margin-bottom: 6px;
-  display: block;  
-  width: 80%;  
-  height: 2px;  
-  background-color: #e4e6ea;  
+.about8{
+ 
+   
+  width: 15 rem;  
+  height: 12px;  
+  background-color: #0c0c0c;
+
+    
 
 }
 
@@ -598,7 +506,7 @@ text-align: justify;
 .partner-item img {
   width: 100px;
   height: 80px;
-  margin-right: 20px; /* Adds space between logo and text */
+  margin-right: 20px; 
 }
 
 .brand-name {
@@ -647,10 +555,6 @@ text-align: justify;
   padding: 20px;
  
 }
-
-
-
-
 
 .arti-time{
   display: flex;

@@ -1,4 +1,4 @@
-import '../App.css';
+import './Homesection.css';
 import React from 'react';
 
 function Homesection() {
@@ -8,23 +8,25 @@ function Homesection() {
           <section  className='homesection1'>
           
               <div className='homesection'>
-              <div className='homesection-left'>
-          <h1 className='textbox1'>TEXT BOX </h1>
-          <h2 className='textbox2'>text box</h2>
+                <div className='homesection-left'>
 
-          <button className='joinus'>Join us</button>
-          </div>
+                <h1 className='textbox1'>TEXT BOX </h1>
+                <h2 className='textbox2'>text box</h2>
+
+                <button className="joinus" onClick={() => window.location.href = "https://www.google.com"}>
+    Join Us
+</button>
+
+              </div>
         
 
            
-                   <div>
+                   <div   >
                    <div className='homesection-right'>
-              
                    </div>
 
-
-                   <p className="homesection-right-underline"></p>
-
+                   <div className="homesection-right-underline" >
+                   </div>
                    </div>
          
               </div>

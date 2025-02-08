@@ -1,0 +1,47 @@
+
+.about-team{
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    color: rgba(101, 101, 101, 1);
+    justify-content: center;
+    padding: 20px;
+  
+  
+  }
+  .about-team-para{
+  
+   font-size: 25px;
+   
+   margin-right: 40px;
+   font-family: sans-serif;
+   margin-left: 80px;
+  
+   
+  }
+  .team{
+    color: #656565;
+    margin-left: 60px;
+    font-family: sans-serif;
+    font-weight: normal;
+  
+  }
+  .team-underline{
+    
+      display: block;  
+      height: 3px; 
+      margin-left: 60px; 
+      margin-right: 15px; 
+      background-color: #e4e6ea;  
+      width:200%;
+  
+  }
+  
+  
+  .about-team h2{
+    font-style: italic;
+    color: #656565;
+    width:300px;
+    margin-left: 350px;
+   
+  }

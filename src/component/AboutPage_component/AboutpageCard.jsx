@@ -1,7 +1,7 @@
-import '../App.css';
+import './AboutpageCard.css';
 import React from 'react';
 
-import grp from '../Images/disc.png'
+import grp from '../../Images/disc.png'
 
 function AboutpageCard(){
     return(

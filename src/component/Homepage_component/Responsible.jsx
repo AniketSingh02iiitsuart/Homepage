@@ -1,7 +1,7 @@
-import '../App.css';
+import './Responsible.css';
 import React from 'react';
-import image1 from '../Images/check-circle.png';
-import Image1 from '../Images/disc.png';
+import image1 from '../../Images/check-circle.png';
+import Image1 from '../../Images/disc.png';
  
 function Responsible(){
      return(
@@ -23,7 +23,7 @@ function Responsible(){
               </h3>
              </div>
           
-              <p>We leverage artificial intelligence (AI) techniques to enhance accuracy 
+              <p className='p1'>We leverage artificial intelligence (AI) techniques to enhance accuracy 
               in digital transformation while ensuring fairness and transparency.</p>
                  
                 <div className='icon-text'>

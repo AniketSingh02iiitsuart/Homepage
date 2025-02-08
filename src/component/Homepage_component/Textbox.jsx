@@ -1,8 +1,10 @@
 
-import '../App.css';
+import './Textbox.css';
 import React from 'react';
 
-import disc from "../Images/disc.png"
+
+
+import disc from "../../Images/disc.png"
 
 function Textbox()
 {
@@ -23,8 +25,14 @@ function Textbox()
         </div>
        
         <div className="button-container">
-          <button className="btn btn-primary">JOIN US</button>
-          <button className="btn btn-secondary">JOIN US</button>
+        <a href="https://www.google.com">
+    <button className="btn btn-primary">JOIN US</button>
+</a>
+
+<a href="https://www.google.com">
+    <button className="btn btn-secondary">JOIN US</button>
+</a>
+
         </div>
       </div>
     </section>

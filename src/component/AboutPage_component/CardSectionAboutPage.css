@@ -1,0 +1,66 @@
+
+.card-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align cards to the left */
+    gap: 20px;
+    padding: 50px;
+     /* Add some padding around the card list */
+     width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+  }
+  
+
+.card-image{
+    margin: 20px;
+    height: 60vh;
+    width: 700px;
+  }
+  
+  
+  .card-content
+  {
+    font-size: 35px;
+   
+   font-weight: normal;
+    padding-left: 20px;
+    margin-top: 20px;
+   
+  }
+  
+  
+  .about-carrd{
+    font-size: 25px;
+    margin-left: 40px;
+    margin-top: 50px;
+  
+  }
+  
+  .cardAboutpage{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .card2{
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    color:  rgba(101, 101, 101, 1);
+   margin-left: 20px;
+   padding-left: 40px;
+   margin-top: 30px;
+  
+  }
+  
+  
+  .aboutpagesection-underline{
+    margin-top: 4px;
+    margin-bottom: 6px;
+    display: block;  
+    width: 100%;  
+    height: 2px;  
+    background-color: #e4e6ea;  
+  }
+  

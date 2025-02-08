@@ -2,15 +2,15 @@ import '../App.css';
 import React from 'react';
 
 
-import Homesection from '../component/Homesection';
-import AboutusHome from '../component/AboutusHome';
-import Services from '../component/Services';
-import Card from '../component/Card';
-import Responsible from '../component/Responsible';
-import OurPartner from '../component/OurPartner';
-import News from '../component/News';
-import Textbox from '../component/Textbox';
-import Navbar from '../component/Navbar';
+import Homesection from '../component/Homepage_component/Homesection';
+import AboutusHome from '../component/Homepage_component/AboutusHome';
+import Services from '../component/Homepage_component/Services';
+import Card from '../component/Homepage_component/Card';
+import Responsible from '../component/Homepage_component/Responsible';
+import OurPartner from '../component/Homepage_component/OurPartner';
+import News from '../component/Homepage_component/News';
+import Textbox from '../component/Homepage_component/Textbox';
+import Navbar from '../component/Homepage_component/Navbar';
 
 
 function Homepage(){

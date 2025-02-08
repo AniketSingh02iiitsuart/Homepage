@@ -1,5 +1,5 @@
 
-import '../App.css';
+import './Services.css';
 import React from 'react';
 
 import Card from './Card';
@@ -7,10 +7,12 @@ import Card from './Card';
 function Services(){
     return(
         <>
-          <section id="services" className="services-container">
-          <div >
+          <section  className="services-container">
+
+
+          <div  className='un-width'>
           <p className="about-title">SERVICE </p>
-          <p className='team-underline2'></p>
+          <div className='team-underline1'>  </div>
           </div>
            
           <div className='service-card'>

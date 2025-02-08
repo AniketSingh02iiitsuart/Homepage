@@ -2,9 +2,9 @@ import '../App.css';
 import React from 'react'
 
 
-import AboutServicepage from '../component/AboutServicepage';
-import ServicepageCard from '../component/ServicepageCard';
-import HeaderService from '../component/HeaderService';
+import AboutServicepage from '../component/ServicePage_component/AboutServicepage';
+import ServicepageCard from '../component/ServicePage_component/ServicepageCard';
+import HeaderService from '../component/ServicePage_component/HeaderService';
 
 
 

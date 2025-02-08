@@ -1,0 +1,110 @@
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+  .half-circle-lower {
+    width: 100px;
+    height: 50px;  
+    background-color: rgb(168, 165, 165); 
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    rotate: 180deg;
+  }
+  
+  
+  .about-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px;
+    margin-top: 150px;
+    margin-left: 60px;
+  }
+  
+
+  
+  .about-title1 {
+    font-size: 22px;
+    width: 200px;
+    color:#656565;
+    font-family: sans-serif;
+    margin-right: 200px;
+    margin-top: 8px;
+    margin-bottom:8px ;
+
+   
+  }
+  
+  
+  .team-underline1{
+    margin-top: 1px;
+    margin-bottom: 6px;
+    display: block;  
+    width: 80%;  
+    height: 2px;  
+    background-color: #e4e6ea;  
+  }
+  
+  
+  
+  
+  
+  .about-subtitle {
+    margin-left: 140px;
+    margin-right: 100px;
+    color: gray;
+    font-size: 60px;
+    font-weight: bold;
+    font-style: italic;
+    width: 100%;
+  }
+  
+  .about-description{
+    margin-left: 135px;
+    padding-left: 30px; 
+  }
+  
+  
+  .about-des-p1 {
+    font-size: 28px;
+    color: black;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    text-align: justify;  
+    margin-left: 60px; 
+  }
+  
+  
+  .about-des-p2 {
+  color: #656565; 
+  font-family: sans-serif;
+  font-size: 28px;
+  text-align: justify;
+  margin-left: 60px;
+  margin-bottom: 60px;
+  
+  }
+  
+  
+  .about-link a {
+   
+    color: #3b82f6;
+    text-decoration: none;
+    font-size: 18px;
+    text-decoration: underline;
+    margin-left: 60px;
+    font-family: sans-serif;
+    
+  }
+  
+  .about-link a:hover {
+    color: #2563eb;
+  }
+  
+  
+  .about-div{
+    width: 500px;
+  }

@@ -1,4 +1,4 @@
-import '../App.css';
+import './AboutpageTeam.css';
 import React from 'react';
 
 function AboutpageTeam(){

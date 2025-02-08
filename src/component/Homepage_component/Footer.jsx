@@ -1,7 +1,13 @@
-import '../App.css';
-import lin from  '../Images/Lin.png'
-import twi from  '../Images/twi.png'
-import insta from '../Images/insta.png'
+
+
+import './Footer.css';
+
+
+
+
+import lin from  '../../Images/Lin.png'
+import twi from  '../../Images/twi.png'
+import insta from '../../Images/insta.png'
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -18,9 +24,15 @@ function Footer(){
                <div className='footer-brand'>
                   <p>LOGO</p>
                   <div className='footericon'>
-                  <img src={lin}></img>
-                  <img src={twi}></img>
-                  <img src={insta}></img>
+                     <a href="https://www.linkedin.com" >
+                        <img src={lin} alt="LinkedIn" />
+                     </a>
+                     <a href="https://www.twitter.com">
+                        <img src={twi} alt="Twitter" />
+                     </a>
+                     <a href="https://www.instagram.com">
+                        <img src={insta} alt="Instagram" />
+                     </a>
                   </div>
                </div>
 
@@ -28,8 +40,13 @@ function Footer(){
 
 
                <div className='footer-info'>
+
+                   <div className='footer-un'>
                    <h4>Pages</h4>
-                   <p className='footer-underline'></p>
+                    <div className='footer-underline'></div>
+                   </div>
+                   
+                   
                    <ul>
                      <li><Link to="/">Home</Link></li>
                      <li> <Link to="/Aboutuspage">About us</Link></li>
@@ -37,8 +54,15 @@ function Footer(){
                    </ul>
 
                 
-             <h4>Address</h4>
-               <p className='footer-underline'></p>
+                <div className='footer-un'>
+                   <h4>Address</h4>
+                   <div className='footer-underline'></div>
+                </div>
+
+
+                   
+                   
+                 
 
                <div className='footer-location'> 
                      <p>Lorem Ipsum has been the industry's standard 142555</p>

@@ -1,4 +1,4 @@
-import '../App.css';
+import './AboutServicepage.css';
 import React from 'react';
 
 function AboutServicepage(){

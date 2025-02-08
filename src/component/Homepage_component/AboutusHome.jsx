@@ -1,19 +1,20 @@
-import '../App.css';
+import './AboutusHome.css';
 import React from 'react';
-
+import { Link } from "react-router-dom";
 function AboutusHome(){
     return(
         <>
            <div className="center-container">
                <div className="half-circle-lower"></div>
            </div>
-    <section className="about-container">
+       <section className="about-container">
         
 
     
-      <div >
+      <div className='about-div' >
+
         <p className="about-title1">ABOUT US </p>    
-          <p className='team-underline1'> </p>
+          <div className='team-underline1'> </div>
       </div>
 
       
@@ -36,9 +37,12 @@ It has survived not only five centuries, but also the leap into electronic types
           </p>
 
           
-          <div className="about-link">
-            <a href="#">ABOUT US</a>
-          </div>
+
+
+<div className="about-link">
+    <Link to="/Aboutuspage">ABOUT US</Link>
+</div>
+
         </div>
       
     </section>

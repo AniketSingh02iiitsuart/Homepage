@@ -1,0 +1,125 @@
+
+
+.mission-container {
+    display: flex;
+    flex-direction: row;
+    background-color:#77B5FE;
+    height:80vh;
+  
+    width: 100%; /* Makes the image fill the container width */
+    height: auto; /* Keeps the aspect ratio */
+    object-fit: cover; 
+  
+  }
+  
+  
+  
+  .mission-left{
+    /* border: 1px solid black;
+    height: 60vh;  
+    width: 50%; 
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('Img/disc.png');
+    background-size: cover;  
+    background-position: center; 
+    background-repeat: no-repeat; */
+  /* 
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('Images/disc.png');
+    background-size: cover;  
+    background-position: center; 
+    background-repeat: no-repeat;  
+    height: 70vh;
+    width: 50%;
+    background-color: #2563eb;
+    position: relative; */
+  
+    display: flex;
+    position: relative;
+    width: 200%;
+    max-height: 700px;
+    overflow: hidden;
+  
+   }
+  
+  
+   .over-write{
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+    margin-left: 50px;
+  }
+  
+  
+  .mission-image{
+    width: 80%;
+  }
+  
+  
+  .about-mission{
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    font-size: 24px;
+    justify-content: center;
+    
+    margin-top: 120px;
+    margin-bottom: 120px;
+    margin-right: 50px;
+    text-align: justify;
+    padding-right: 130px;
+  
+  
+  }
+  
+  .mission-right{
+   
+    color: white;
+    padding: 30px;
+    font-size:30px;
+    padding-right: 50px;
+    
+    width: 100%;
+    margin-right: 40px;
+  }
+  .subtext{
+    color: white;
+    font-size: 24px;
+   margin-left: 25px;
+    text-align: justify;
+    word-spacing: 1px;
+  
+  }
+  
+  
+  
+  
+
+.bottom-section {
+background: #4a90e2;
+        color: white;
+    padding: 80px;
+    font-size: 40px;
+   bottom: top 20px;
+   font-family: sans-serif;
+  
+  
+  
+  
+  }
+  
+  .bottom-section h3{
+  
+   font-weight: normal;
+   margin-right: 40px;
+  
+  
+  }
+  
+  

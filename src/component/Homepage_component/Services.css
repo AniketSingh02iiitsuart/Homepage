@@ -1,0 +1,45 @@
+  
+  .service-card{
+    width: 100%;
+    padding-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 135px;
+    margin-bottom: 50px;
+
+    
+  }
+
+  .services-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+    margin-left: 60px;
+    
+  }
+  .about-title {
+    font-size: 22px;
+    color: #656565;
+    margin: 0px;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px; 
+    font-family: sans-serif;
+    margin-bottom: 0px;
+    
+  }
+
+
+  .team-underline1{
+    margin-top: 1px;
+    margin-bottom: 6px;
+    display: block;  
+    width: 80%;  
+    height: 2px;  
+    background-color: #e4e6ea;  
+  }
+  
+
+  .un-width{
+     width: 600px;
+  }

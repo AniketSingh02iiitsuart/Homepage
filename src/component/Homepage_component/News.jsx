@@ -1,15 +1,21 @@
-import '../App.css';
+import './News.css';
 import React from 'react';
 
 
-import grp from '../Images/grp.jpg'
+import grp from '../../Images/grp.jpg'
 
 function News() {
     return(
         <>
         <section className='news-section'>
-            <p className='til'> ARTICLE AND NEWS</p>
-            <p className='team-underline4'></p>
+
+
+        <div className='article'>
+        <p className='til'> ARTICLE AND NEWS</p>
+        <div className='team-underline1'> </div>
+        </div>
+           
+           
           
             <div className='main-news'>
                 <div className='news-item'>
@@ -19,8 +25,10 @@ function News() {
 
                     <div className='arti-time'>
                     <h3>ARTICLE</h3>
-                     <h3 className='news-time'>2 MIN</h3>
+                     <p className='news-time'>2 MIN</p>
                     </div>
+
+                    <div className='team-underline1'> </div>
                      
                     <p className='news-content-p1'>Intelligent Response</p>
                     
@@ -43,9 +51,9 @@ function News() {
 
                     <div className='arti-time'>
                     <h3>ARTICLE</h3>
-                     <h3 className='news-time'>2 MIN</h3>
+                    <p className='news-time'>2 MIN</p>
                     </div>
-
+                    <div className='team-underline1'> </div>
 
                     <p className='news-content-p1'>Intelligent Response</p>
                    
@@ -61,10 +69,9 @@ function News() {
 
                     <div className='arti-time'>
                     <h3>ARTICLE</h3>
-                     < h3 className='news-time'>2 MIN</h3>
+                    <p className='news-time'>2 MIN</p>
                     </div>
-
-
+                    <div className='team-underline1'> </div>
 
                     <p className='news-content-p1'>Intelligent Response</p>
                    
@@ -75,7 +82,7 @@ function News() {
             </div>
 
             <div className="about-link-1">
-            <a href="#">MORE</a>
+            <a href="https://iiitsurat.ac.in/">MORE</a>
           </div>
         </section>
         </>

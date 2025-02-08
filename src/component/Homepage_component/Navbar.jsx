@@ -1,11 +1,12 @@
-import '../App.css';
+import './Navbar.css';
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function HeaderAbout() {
+function Navbar() {
     return (
         <>
-<header className='header3'>
+<header className='header1'>
   <nav className="navbar">
      
      <ul className="home">
@@ -20,24 +21,12 @@ function HeaderAbout() {
         <li><Link to="/Servicepage">RESOURCES</Link></li>
       
       
-      <li><Link to="/Join-us" className='join-us-nav'>JOIN US</Link></li>
+      <li><Link to="https://www.cricbuzz.com/" className='join-us-nav'>JOIN US</Link></li>
     </ul>
   </nav>
-
 </header>
-
-  
-  
-
-
-
-
-
-
-
-
         </>
     );
 }
 
-export default HeaderAbout;
+export default Navbar;

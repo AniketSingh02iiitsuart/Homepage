@@ -12,7 +12,7 @@
     border: 1px solid black;
     height: 600px; 
     width: 50%;
-    background: radial-gradient(circle, rgba(0, 0, 0, 0.6) 100%, transparent 80%), url('src/Images/disc.png');
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.6) 100%, transparent 80%), url('../../Images/disc.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -50,18 +50,15 @@
     background-color: white;
     display: flex;
     flex-direction: column;
-    justify-content: center; 
-    margin-top:40px ;
-    margin-left: 40px;
+    justify-content: center;  
     font-family: sans-serif;
-    margin-right: 40px;
-    margin-bottom: 40px;
+    margin: 40px;
   }
   
   
   .tech-content h3 {
     color: rgb(88, 86, 86);
-    font-size: 50px;
+    font-size: 55px;
     margin-bottom: 60px; 
     margin-left: 90px;
     font-weight: normal;
@@ -78,36 +75,17 @@
     flex-direction: row;
   
   }
-  .resp1{
+  .resp1,.resp2,.resp3{
   
     font-size: 35px;
     margin-top: 11px;
     font-weight: normal;
-    color: #656565;
-  
-   
-    
-  
+    color: #656565
   }
   
   
   
-  .resp2{
-    font-size: 35px;
-    margin-top: 11px;
-    font-weight: normal;
-    color: #656565;
-    
-  }
   
-  
-  
-  .resp3{
-    font-size: 35px;
-    margin-top: 11px;
-    font-weight: normal;
-    color: #656565;
-  }
   
   .tech-content p {
     color: rgb(110, 108, 108);
@@ -129,4 +107,67 @@
   }
   
 
+  
+
+  @media (min-width: 1300px) and (max-width: 1688px) {
+    .tech-section {
+      margin-top: 10px;
+      margin-bottom: 80px;
+    }
+  
+    .tech-header {
+      height: 550px;
+      width: 55%; /* Slightly adjusted for better layout */
+      padding: 15px;
+    }
+  
+    .over-write1 {
+      font-size: 18px;
+      margin-top: 450px;
+      margin-left: 15px;
+      padding: 8px 18px;
+    }
+  
+    .tech-header p {
+      font-size: 28px;
+      margin-left: 25px;
+    }
+  
+    .tech-content {
+      padding: 25px;
+     margin: 30px;
+    }
+  
+    .tech-content h3 {
+      font-size: 45px;
+      margin-bottom: 50px;
+      margin-left: 80px;
+    }
+  
+    .resp1, .resp2, .resp3 {
+      font-size: 18px;
+      margin-top: 10px;
+    }
+  
+    .tech-content p {
+      font-size: 18px;
+      margin-right: 30px;
+      margin-bottom: 40px;
+    }
+  
+    .icon-text img {
+      width: 18px;
+      height: 18px;
+      margin-right: 15px;
+    }
+  }
+  
+
+  @media (max-width: 1500px) {
+    .tech-content h3 {
+      font-size: 40px; 
+      margin-left: 50px;
+      white-space: nowrap; 
+    }
+  }
   

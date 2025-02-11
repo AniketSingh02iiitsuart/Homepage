@@ -1,52 +1,75 @@
   
-  .service-card{
-    width: 100%;
-    padding-left: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 135px;
-    margin-bottom: 50px;
-
-    
-  }
-
-  .services-container{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 150px;
-    margin-left: 60px;
-    
-  }
-  .about-title {
-    font-size: 22px;
-    color: #656565;
-    margin: 0px;
-    position: relative;
-    display: inline-block;
-    padding-bottom: 10px; 
-    font-family: sans-serif;
-    margin-bottom: 0px;
-    
-  }
-
-
-  .team-underline1{
-    margin-top: 1px;
-    margin-bottom: 6px;
-    display: block;  
-    width: 80%;  
-    height: 2px;  
-    background-color: #e4e6ea;  
-  }
+ .services-container{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 150px;
   
+}
 
-  .un-width{
-     width: 600px;
+.un-width{
+  width: 600px;
+}
+
+
+.about-title {
+  font-size: 22px;
+  color: #656565;
+  padding-bottom: 10px; 
+  font-family: sans-serif;
+  margin-bottom: 0px; 
+}
+
+
+
+.team-underline1{
+  margin-top: 1px;
+  margin-bottom: 6px;
+  display: block;  
+  width: 80%;  
+  height: 2px;  
+  background-color: #e4e6ea;  
+}
+
+
+
+  .service-card{
+    padding-left: 5px;
+    display: flex;
+    flex-wrap: wrap; 
+
   }
 
-
+ 
 
  
 
 
 
+  @media (min-width: 1440px) and (max-width: 1688px) {
+    .services-container {
+        display: flex; 
+        flex-wrap: wrap; 
+        margin-top: 120px;
+       margin: 40px;
+    }
+
+    .un-width {
+        width: 385px; 
+    }
+
+    .about-title {
+        font-size: 20px; 
+        padding-bottom: 8px;
+    }
+
+    .team-underline1 {
+        width: 70%; 
+    }
+
+    .service-card {
+        padding-left: 200px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; 
+    }
+}

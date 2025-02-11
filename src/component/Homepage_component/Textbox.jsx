@@ -10,7 +10,7 @@ function Textbox()
 {
     return(
         <>
-               <section className="textbox-section" style={{ backgroundImage: `url(${disc})` }}>
+               <section className="textbox-section" >
       <div className="textbox-content">
         <h1>Text Box</h1>
         <h2 className="subheading">text box</h2>

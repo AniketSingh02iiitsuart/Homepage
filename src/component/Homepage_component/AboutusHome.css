@@ -19,9 +19,8 @@
   .about-container{
     display: flex;
     justify-content: space-evenly;
-    margin: 100px;
+    margin: 60px;
     margin-top: 150px;
-    margin-left: 60px;
   }
   
 
@@ -31,11 +30,10 @@
     width: 200px;
     color:#656565;
     font-family: sans-serif;
-    margin-right: 200px;
+ 
     margin-top: 8px;
     margin-bottom:8px ;
 
-   
   }
   
   
@@ -107,4 +105,47 @@
   
   .about-div{
     width: 500px;
+   
   }
+
+
+  @media (min-width: 1300px) and (max-width: 1688px) {
+    .about-container {
+        margin: 40px;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    
+    .about-title1 {
+        font-size: 20px;
+        width: 180px;
+        text-align: left;
+    }
+
+    .about-subtitle {
+        font-size: 36px;
+        text-align: left;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .about-description {
+        margin-left: 50px;
+        padding-left: 20px;
+    }
+
+    .about-des-p1, .about-des-p2 {
+        font-size: 22px;
+        margin-left: 50px;
+        text-align: justify;
+    }
+
+    .about-link a {
+        font-size: 18px;
+        margin-left: 50px;
+    }
+
+    .about-div {
+        width: 80%;
+    }
+}

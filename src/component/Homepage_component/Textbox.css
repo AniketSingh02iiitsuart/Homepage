@@ -1,5 +1,7 @@
 .textbox-section {
-    background-size: cover;
+   
+    background-image: url("../../Images/disc.png"); 
+    background-size: 100% auto;
     background-position: center;
     background-repeat: no-repeat;
     min-height: 90vh;
@@ -129,3 +131,52 @@
   }
   
   
+
+
+
+
+
+
+
+
+
+
+
+  @media (min-width: 1440px) and (max-width: 1688px) {
+    .textbox-section {
+        min-height: 75vh;
+        margin-top: 120px;
+        margin-bottom: 120px;
+    }
+
+    .textbox-content {
+        height: 80vh;
+        padding: 30px;
+    }
+
+    .textbox-content h1 {
+        font-size: 70px;
+        margin-bottom: 10px;
+    }
+
+    .textbox-content h2 {
+        font-size: 70px;
+        margin-bottom: 10px;
+    }
+
+    .textbox-p1 {
+        font-size: 22px;
+        max-width: 500px;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
+    .button-container {
+        margin-top: 15px;
+    }
+}
+
+

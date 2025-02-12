@@ -8,20 +8,12 @@
     height: 80vh;
     background-color: #2563eb;
   }
-  .service-container {
-    width: 100%;
-    height: 100vh; 
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: left;
-    color: white;
-  }
-  
+
+
   .service-content {
-    text-align: left;
+    display: flex;
+
+   flex-direction:column;
    margin-right: 1500px;
    margin-top: 10px;
     
@@ -77,19 +69,14 @@
    
   }
   
-  .join-us-nav {
-    padding: 10px 30px;
-    background-color: #FFFF;
-    color: rgb(33, 197, 219);
-    border: 8px;
-    border-radius: 30px;
+  .join{
+    background-color: white;
+    color: rgb(33,197,219);
     cursor: pointer;
-    font-size: 25px;
-    height: 20px;
-    width: 170px;
-    text-decoration: none;
-  }
-   
+    border-radius: 30px;
+    padding: 10px 22px; 
+   }
+    
   
   ul li a {
     text-decoration: none;
@@ -110,3 +97,6 @@
    
   }
   
+
+
+ 

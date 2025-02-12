@@ -21,7 +21,7 @@ function HeaderService() {
         <li><Link to="/Servicepage">RESOURCES</Link></li>
       
       
-      <li><Link to="/Join-us" className='join-us-nav'>JOIN US</Link></li>
+      <li><Link to="/Join-us" className='join'>JOIN US</Link></li>
     </ul>
   </nav>
    

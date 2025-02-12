@@ -21,20 +21,20 @@ function Footer(){
             <div className='footer-container'>
 
 
-               <div className='footer-brand'>
-                  <p>LOGO</p>
-                  <div className='footericon'>
-                     <a href="https://www.linkedin.com" >
-                        <img src={lin} alt="LinkedIn" />
-                     </a>
-                     <a href="https://www.twitter.com">
-                        <img src={twi} alt="Twitter" />
-                     </a>
-                     <a href="https://www.instagram.com">
-                        <img src={insta} alt="Instagram" />
-                     </a>
-                  </div>
-               </div>
+            <div className='footer-brand'>
+    <p>LOGO</p>
+    <div className='footericon'>
+        <a href="https://www.linkedin.com" className="social-icon">
+            <i className="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="https://www.twitter.com" className="social-icon">
+            <i className="fa-brands fa-twitter"></i>
+        </a>
+        <a href="https://www.instagram.com" className="social-icon">
+            <i className="fa-brands fa-instagram"></i>
+        </a>
+    </div>
+</div>
 
              
 

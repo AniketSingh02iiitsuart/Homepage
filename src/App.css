@@ -1211,10 +1211,9 @@ p {
 .card-list {
   display: flex;
   flex-direction: column;
-  align-items: flex-start; /* Align cards to the left */
+  align-items: flex-start; 
   gap: 20px;
   padding: 50px;
-   /* Add some padding around the card list */
    width: 100%;
   height: 100%;
   object-fit: cover;
